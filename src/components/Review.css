@@ -1,0 +1,64 @@
+.Section {
+  background-color: rgb(12, 12, 12);
+  height: 465px;
+  width: 100%;
+}
+
+.fourth-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+.img4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img4-1,
+.img4-2,
+.img4-3,
+.img4-4 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 218px;
+  width: 216px;
+  font-weight: 550;
+  font-size: 20px;
+  position: absolute;
+}
+.img4-1 {
+  background-image: url("../Images/ring1.png");
+}
+.img4-2 {
+  background-image: url("../Images/ring2.png");
+}
+.img4-3 {
+  background-image: url("../Images/ring3.png");
+}
+.img4-4 {
+  background-image: url("../Images/ring4.png");
+}
+.child-4 {
+  position: relative;
+  height: 318px;
+}
+.child-4 p {
+  width: 190px;
+  margin-top: 250px;
+  color: white;
+  font-family: "Biennale";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  
+}

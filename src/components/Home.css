@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container{
+    height: 100%;
+    width: 100vw;
+}
+
+.main_img {
+    position:absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    filter: brightness(50%);
+}
+
+.nav_bar{
+    width: 100%;
+    top: 29px;
+    position: relative;
+}
+
+.title {
+   width: 190px;
+}
+
+.main_title{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding-left: 55px;
+}
+
+.button_style{
+    width: 900px;
+    margin-left: 350px;
+}
+
+.btn{
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    margin-left: 30px;
+    font-size: x-small;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.language{
+    margin-left: 30px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #C8EB13;;
+}
+.Path3{
+
+    position: absolute;
+    /* left: -120px; */
+    height: 582px;
+    width: 227px;
+    left: 228px;
+    top: 816px;
+    line-height: 226.51px;
+}
+
+.image {
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    width: 700px;
+
+}
+
+.home-button{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-btn{
+        /* position: absolute; */
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 732px;
+        top: -208px;
+}
+
+.contact-btn{
+    /* height: 102px; */
+    width: 102px;
+    position: absolute;
+    /* left: 220%; */
+    right: 0%;
+    /* top: -15%; */
+    bottom: 120px;
+}
+
+.music-btn{
+   width: 450px;
+   height: 100px;
+   top: -211px;
+   position: absolute;
+}
+
+.black {  
+    height: 100%;
+    width: 100vw;
+}
+
+@media (max-width:600px) {
+    .header{
+      display: block;
+    }
+    .scroll-btn{
+      justify-content: center;
+    }
+  }
+
+@media (min-width:1550px) {
+    .header{
+
+        display: flex;
+    }
+    .scroll-btn{
+        justify-content: center;
+
+    }
+    .contact-btn{
+        justify-content: end;
+    }
+}

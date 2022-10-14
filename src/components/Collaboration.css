@@ -1,0 +1,196 @@
+
+ .collabration{
+    position: relative;
+    padding: 4% 15% 4% 15%;
+    background-color: rgb(12,12,12);
+    color: white;
+  }
+  .col-main{
+    width: 70%;
+  }
+  .image_sec5{
+    width: 90%;
+    position: relative;
+    left: 222px;
+    top: 45px;
+    z-index: 10;
+  }
+  .backx{
+    
+    padding: 15%;
+    background-image: url(../Images/logox1.png);
+    background-repeat: no-repeat;
+    background-size: 320px 320px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: 37%;
+    z-index: 1;
+  }
+  .cola-para-1{
+    font-size: 1vw;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 45px;
+    z-index: 10;
+    position: relative;
+    font-size: larger;
+  }
+  .colla-bts{
+    background-color: black;
+    color: white;
+    border: white solid;
+    height: 60px;
+    width: 200px;
+    background-repeat: no-repeat;
+
+  }
+  
+  .colla-bts:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: white solid;
+    width:190px ;
+  }
+  .colla-bt{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2vw;
+    margin-top: 55px;
+    
+  }
+  
+ .frame1{
+    width: 100%;
+    font-size: 16px;
+  
+  }
+  .frame1-para {
+    width: 100%;
+    background-color: #1C1C1C;
+    padding: 5px;
+    font-size: 1.2vw;
+  }
+  .frame1-img img {
+    width: 100%;
+    margin-top: -10%;
+  }
+  .frame2 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .frame2 img {
+    width: 100%;
+  }
+  .frame3 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .frame3 img {
+    width: 100%;
+  }
+  .frame3-para {
+    padding: 5px;
+    margin-top: -25%;
+    font-size: 1.2vw;
+    justify-content: center;
+  }
+  .frame3-bt {
+    width: 70%;
+    margin-left: 17%;
+    font-size: 1.2vw;
+    border: none;
+    font-weight:600;
+  }
+  .frame4 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .frame4 img {
+    width: 100%;
+  }
+  .frame4-bt{
+    width: 15%;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 1%;
+    font-size: 1.5vw;
+    border: none;
+    color: white;
+    background-color: rgb(12,12,12); 
+  }
+  .colla-items{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px 5px 5px 5px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .col-upper {
+    margin-top: 5%;
+    font-size: 2vw;
+    font-family: Rubic Mono One;
+  }
+  .col-upper img {
+    width: 100%;
+    
+  }
+  .computer {
+    width: 100%;
+    top:- 100px;
+    position: relative;
+    z-index: 20;
+  }
+  .stand_com{
+    position: relative;
+    width: 20px;
+  }
+  .left p {
+    text-align: center;
+    font-weight: 800;
+    font-size: 4vw;
+  }
+  .right p {
+    text-align: center;
+    font-weight: 800;
+    font-size: 4vw;
+  }
+  .upper-item{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col-lat {
+    /* font-size: 1.5vw; */
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+   position: relative;
+   top:-120px;
+   justify-content: center;
+  }
+  
+  @media (max-width:600px) 
+  {
+      .image_sec5{
+        width: 100%;
+      }
+      .cola-para-1{
+        font-size: small;
+        
+      }
+  
+    .collobration p {
+      font-size: 1rem;
+      margin-top: 10%;
+    }
+  
+    .colla-bt{
+      grid-template-columns: auto flex;
+      justify-content: center;
+    }
+  }
+
+
+
+  

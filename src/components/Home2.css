@@ -1,0 +1,114 @@
+.home2 {
+    height: auto;
+    color: white;
+    padding: 4% 15% 4% 15%;
+    background-color: rgb(12, 12, 12);
+}
+.paragraph {
+    width: 350px;
+}
+
+.title1 {
+    font-family: Rubic Mono One;
+    font-weight: 700;
+    font-size: 2vw; 
+    font-style: normal;
+    line-height: 148%;
+}
+
+
+.title2 {
+    
+    font-family: 'Geneva';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 154.3%;
+    /* or 37px */
+    color: #FFFFFF;
+}
+
+.btn1{
+    background-color: #C8EB13 ;
+    color: black;
+    border: 1px solid white;
+    width: 120px;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.design{
+    size: 5px;
+    position: absolute;
+    left: 20%;
+    right: 76%;
+    /* top: 19.66%; */
+    /* bottom: 79.76%; */
+    transform: rotate(16deg);
+}
+
+.blur{
+    
+    position: absolute;
+    top: 1245px;
+    left: -2px;
+    width: 285px;
+    height: 211px;
+    opacity: 0.5;
+} 
+
+.blur1 {
+    
+    position: absolute;
+    top: 1350px;
+    left: 0px;
+    width: 275px;
+    height: 231px;
+    opacity: 0.5;
+}
+
+.btn1:hover {
+    color: black;
+    border: 1px solid #C8EB13;
+}
+
+.home2pic {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 38px;
+}
+
+.scr1 img{
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+.scr2 img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.xtixs {
+    text-align: center;
+}
+.xtixs img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95px;
+    width: 600px;
+    margin-top: 10px;
+}

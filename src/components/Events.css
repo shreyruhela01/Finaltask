@@ -1,0 +1,119 @@
+
+  .third-sec {
+    height: 700px;
+    width: 100w;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 623px;
+    width: 600px;
+  }
+  .child-card3 {
+    margin-left: 23px;
+    margin-right: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img3-1 {
+  
+    background-image: url("../Images/d3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 104px;
+    width: 206px;
+    margin: auto;
+    position: relative;
+  }
+  .img3-2 {
+  
+    background-image: url("../Images/d1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 104px;
+    width: 206px;
+    margin: auto;
+    position: relative;
+  }
+  .img3-3 {
+
+    background-image: url("../Images/d2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 104px;
+    width: 206px;
+    margin: auto;
+    position: relative;
+  }
+  .img3-1 div {
+
+    background-image: url("../Images/profile3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 214px;
+    width: 113px;
+    margin: auto;
+    position: absolute;
+    left: 49px;
+    bottom: 5px;
+  }
+  .img3-2 div {
+    
+    background-image: url("../Images/profile1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 214px;
+    width: 113px;
+    margin: auto;
+    position: absolute;
+    left: 49px;
+    bottom: 5px;
+  }
+  .img3-3 div {
+    
+    background-image: url("../Images/profile2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 214px;
+    width: 113px;
+    margin: auto;
+    position: absolute;
+    left: 49px;
+    bottom: 5px;
+  }
+  .text3 {
+    width: 244px;
+    text-align: center;
+  }
+  .card-compo {
+    margin-bottom: 20px;
+  }
+  .title3 {
+    font-weight: 900;
+  }
+  .heading3 {
+    font-weight: 900;
+  }
+  .para-heading {
+    width: 798px;
+    margin-bottom: 43px;
+  }
+  .upper-title {
+    margin-top: 23px;
+    text-align: center;
+  }
